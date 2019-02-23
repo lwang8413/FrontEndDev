@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS How To</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <style>
+        body {
+            background-color: linen;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>CSS How To...</h2>
+    <div>
+        <a href="index.html"><img class="navButton" src="image/Previous.PNG" alt="Previous"></a>
+        <a class="next" href="Syntax.html"><img class="navButton" src="image/Next.PNG" alt="Next"></a>
+    </div>
+    <hr>
+    <p>When a browser reads a style sheet, it will format the HTML document accoding to the information in the style sheet.</p>
+
+    <hr>
+    <h3>Three Ways to Insert CSS</h3>
+    <p>There are three ways of inserting a style sheet:</p>
+    <ul>
+        <li>External style sheet</li>
+        <li>Internal style sheet</li>
+        <li>Inline style</li>
+    </ul>
+
+
+    <h3>External Style Sheet</h3>
+    <p>With an external style sheet, you change change the look of an entire website by changing just one file!</p>
+    <p>Each page must include a reference to the externa style sheet file inside the &lt;link> element. The &lt;link> element goes inside the &lt;head> section:</p>
+
+    <h4>Example</h4>
+    <code>
+			&lt;head> {<br>
+            &lt;link rel="stylesheet" type="text/css" href="mystyle.css"> <br>
+            &lt;/head> <br>
+           }<br>
+		</code>
+    <hr>
+
+    <p>An external style sheet can be written in any text editor. The file should not contain any HTML tags. The style sheet file must be daved with a .css extension.</p>
+
+    <h3>Internal Style Sheet</h3>
+    <p>An internal style sheet may be used if one single page has a unique style.</p>
+    <p>Internal styles are defined within the &lt;style> element, inside the &lt;head> section of an HTML page:</p>
+    <script type="text/javascript" src="js/Formscripts.js"></script>
+</body>
+</html>

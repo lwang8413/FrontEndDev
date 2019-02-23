@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Hero Form</title>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="css/HeroStyles.css"/>
+</head>
+<body>
+    <label for="age" class="break">Age:</label>
+    <input type="number" name="age" min=0 step=1>
+    <form id="hero">
+        <label for="name" class="break">Name:</label>
+        <input required type="text" name="name" autofocus placeholder="Your super hero name" maxlength="50"/>
+        <label for="name" class="break">Password:</label>
+        <input type="password" name="passwordInput" placeholder="Input password"/>
+        <button type="submit">Submit</button>
+        <label for="speed">Super Speed:</label>
+        <input type="checkbox" value="Super Speed" name="powers" />
+        <label for="energy">Energy Blasts:</label>
+        <input type="checkbox" value="Energy Blasts" name="powers" />
+        <label for="telekinesis">Telekinesis:</label>
+        <input type="checkbox" value="Telekinesis" name="powers"/>
+        <label for="flight">Flight:</label>
+        <input type="checkbox" value="Flight" name="powers" checked />
+        <label for="origin" class="break">Origin Story:</label>
+        <textarea name="origin" rows="20" cols="60"></textarea>
+        <button type="reset">Reset</button>
+    </form>
+    <p>What type of hero are you?</p>
+    <label>Hero:</label>
+    <input type="radio" name="type" value="Hero">
+    <label>Villain:</label>
+    <input type="radio" name="type" value="Villain" checked>
+    <label>Anti-Hero:</label>
+    <input type="radio" name="type" value="Antihero">
+
+    <label for="City" class="break">Base of Operations:</label>
+    <select name="city">
+        <option value="" selected>Choose a City</option>
+        <option value="Metropolis">Metropolis</option>
+        <option value="Gotham City">Gotham City</option>
+        <option value="Keystone City">Keystone City</option>
+        <option value="Coast City">Coast City</option>
+        <option value="Star City">Star City</option>
+    </select>
+
+    <div id="square"></div>
+    <script type="text/javascript" src="js/HeroScripts.js"></script>
+</body>
+</html>

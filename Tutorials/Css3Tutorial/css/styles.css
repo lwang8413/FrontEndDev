@@ -1,0 +1,20 @@
+﻿ .bold {
+     font-weight: bold;
+ }
+
+ .next {
+     float: right;
+ }
+
+ .redText {
+     color: red;
+ }
+
+ .blueText {
+     color: blue;
+ }
+
+ .navButton {
+     width: 100px;
+     height: 35px;
+ }
